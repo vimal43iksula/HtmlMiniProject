@@ -127,7 +127,10 @@ ul.products li {
        vertical-align: 10px;
 }
 
+.phone{
 
+    color: grey;
+}
 
 
 
@@ -214,6 +217,8 @@ span.linepad {
 }
 span.linepad2 {
     float: right;
+    margin-right: 62px;
+    color: #64829c;
     
 }
 
@@ -275,7 +280,9 @@ span.linepad2 {
 
   
   display: inline-block;
-  margin-right:30px; 
+  margin-right:30px;
+  border: 1px solid black;
+
   }
 
 
@@ -293,8 +300,10 @@ span.linepad2 {
   font-size: 20px;
 }
 .clint-img{
-  margin: 30px;
+  margin: 15px 30px;
   display: inline-flex;
+  height: 75px;
+
 }
 .clint-msg{
   font-size: 17px;
@@ -339,6 +348,14 @@ span.linepad2 {
 .follow{
   padding: 30px;
 }
+.triangle{
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 30px 25px 0 25px;
+border-color: #64829c transparent transparent transparent;
+margin-left: 40px;
+}
 
 
 .post-format {
@@ -374,4 +391,21 @@ footer{
 }
 .last-sec{
   padding: 20px;
+}
+
+
+.followlist :hover{
+ 
+   color: red;
+}
+
+ .helplist :hover{
+ 
+   color: red;
+}
+
+
+.cont{
+
+     color: grey;
 }
