@@ -1,35 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Spartan Portal</title>
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" type="text/css" href="slick-1.8.0/slick/slick.css"/>
+
+<link rel="stylesheet" type="text/css" href="slick-1.8.0/slick/slick-theme.css"/>
+
 <link rel="stylesheet" type="text/css" href="css/style1.css">
+<script src="js/jquery-3.2.1.js"></script>
+
+
 </head>
 
 <body>
 
 	<div class="wrapper">
     
-    <div><!-- Top Section -->
+    <div class="topsec"><!-- Top Section -->
       <img src="img/layout-(1)_03.jpg" style="padding-right:50px">
-      <img src="img/search.jpg">
+      
+      <img class="search" src="img/search.jpg">
+
+      <div class="search-box">
+            <input type="text" placeholder=""/>
+            <input type="button" value="Search"/>
+        </div>
 		  <ul>   
 		    <li><a class="top" href="#Home">Home</a></li>
 		    <li><a class="top" href="#fashion">Fashion<i class="fa fa-angle-down"></i></a></li>
 		    <li><a class="top" href="#electronics">Electronics<i class="fa fa-angle-down"></i></a></li>
 		    <li><a class="top" href="#features">Features<i class="fa fa-angle-down"></i></a></li>
-		    <li><a class="top" href="#BuyPorto" style="padding-right:10px">Buy Porto!</a></li>
+		    <li><a class="top" href="#BuyPorto" style="padding-right:2px">Buy Porto!</a></li>
       </ul>
 		  <div class="contact">
 		    <div class="phone"><i class="fa fa-phone" aria-hidden="true">  +(404) 158142578</i><span class="divide">|</span><span class="cont">CONTACT US</span><span><a href="#"><i class="fa fa-shopping-bag"  style="font-size:38px" "color: #64829c"></i></a></span>
 		    </div>
       </div><!-- .contact -->
     </div><!-- End of Top Section -->
+ <br>
+      <div class="banner">
+        <a href="#"><img src="img/workbench.jpg" class="banner"></a>
+        <a href="#"><img src="img/coffee.jpg" class="banner"></a> 
+        <a href="#"><img src="img/sound.jpg" class="banner"></a>
+        
+ 
+       
+      </div>
+
+<br>
   
     <div class="sec1">	<!-- section 1 -->
      <a href="#"><img src="img/layout-(1)_10.jpg" class="sec1"></a>
      <a href="#"><img src="img/layout-(1)_12.jpg" class="sec1"></a>
 	   <a href="#"><img src="img/layout-(1)_14.jpg" class="sec1"></a>
      <a href="#"><img src="img/layout-(1)_16.jpg" class="sec1"></a>
+
      <br><br>
  	  </div>	<!-- End of section 1 -->
 
@@ -39,15 +67,15 @@
     <b>FEATURED PRODUCTS</b>
     <span class="linepad"><img src="img/layout-(1)_22.jpg"></span>
     <span class="linepad2">
-      <i class="fa fa-angle-left" style="font-size:24px"></i>
-      <i class="fa fa-angle-right" style="font-size:24px"></i>
+     <a href=""><i class="fa fa-angle-left" style="font-size:24px"></i></a>
+     <a href=""><i class="fa fa-angle-right" style="font-size:24px"></i></a>
     </span>
   </div>
   <div class="products1">
   <ul>
    <li><a href="#Shoe"><img src="img/layout-(1)_25.jpg" class="sec2"></a><h4 class="item">Item Name</h4>
     
-    <div><img src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star_03.jpg">
+    <div style="margin-left: 26px"><img src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star_03.jpg">
     </div>
     <p class="price">$75.00</p><div class="heart"><img src="img/layout-(1)_38.jpg"><button class="addcart"><img src="img/cart.jpg">Add to cart</button><img src="img/layout-(1)_41.jpg"></div>
   </li>
@@ -55,7 +83,7 @@
   <li><a href="#">
     <img src="img/layout-(1)_27.jpg" class="sec2"></a>
     <h4 class="item">Item Name</h4>
-    <div><img src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star_03.jpg">
+    <div style="margin-left: 26px"><img src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star_03.jpg">
     </div>
     <p class="price">$85.00</p><div class="heart"><img src="img/layout-(1)_38.jpg">
     <button class="addcart"><img src="img/cart.jpg">Add to cart</button><img src="img/layout-(1)_41.jpg">
@@ -63,7 +91,7 @@
 
 	<li><a href="#">
     <img src="img/layout-(1)_29.jpg" class="sec2"></a><h4 class="item">Item Name</h4>
-    <div>
+    <div style="margin-left: 26px">
       <img src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star_03.jpg">
     </div>
     <p class="price">$100.00</p><div class="heart"><img src="img/layout-(1)_38.jpg">
@@ -72,7 +100,7 @@
 
   <li><a href="#">
     <img src="img/layout-(1)_31.jpg" class="sec2"></a><h4 class="item">Item Name</h4>
-    <div>
+    <div style="margin-left: 26px">
       <img src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star_03.jpg">
     </div>
     <p class="price">$35.00</p><div class="heart"><img src="img/layout-(1)_38.jpg"><button class="addcart"><img src="img/cart.jpg">Add to cart</button><img src="img/layout-(1)_41.jpg"></div></li>
@@ -80,52 +108,109 @@
   </div>
  	</div>   <!-- end of section 2 -->
 
+
+<br>
 <div class="sec3"> <!-- section 3 -->
-
-
 <ul class="products3">
   <b>BROWSE OUR CATERGORY</b>
-    <span class="linepad"><img src="img/layout-(1)_22.jpg"></span>
+    <span class="linepad"><img src="img/layout-(1)_22.jpg" style="width: 887px"></span>
     <span class="linepad2">
       <i class="fa fa-angle-left" style="font-size:24px"></i>
       <i class="fa fa-angle-right" style="font-size:24px"></i>
     </span>
   <br><br>
-<li><a href="#"><img src="img/layout-(1)_45.jpg"></a></li>
-            
-<li><a href="#"><img src="img/layout-(1)_47.jpg"></a></li>
-            
-<li><a href="#"><img src="img/layout-(1)_49.jpg"></a></li>
-           
-<li><a href="#"><img src="img/layout-(1)_51.jpg"></a></li>
 
-</ul>  
+  </ul>  
 <br><br>
 </div>
+ 
+
+<div class="multiple-items">
+  
+  <div class="container"> 
+   <a href=""><img src="img/layout-(1)_45.jpg" class="category">
+  </a>
+  </div>
+
+  <div class="container">
+  <a href=""><img src="img/layout-(1)_47.jpg" class="category">
+  </a></div>
+
+  <div class="container">
+  <a href=""><img src="img/layout-(1)_49.jpg" class="category">
+  </a></div>
+
+  <div class="container">
+  <a href=""><img src="img/layout-(1)_51.jpg" class="category">
+  </a></div>
+
+  <div class="container">
+  <a href=""><img src="img/layout-(1)_45.jpg" class="category">
+  </a>
+  </div>
+
+  <div class="container">
+  <a href=""><img src="img/layout-(1)_47.jpg" class="category">
+  </a></div>
+
+  <div class="container">
+  <a href=""><img src="img/layout-(1)_49.jpg" class="category">
+  </a></div>
+  
+  <div class="container">
+  <a href=""><img src="img/layout-(1)_51.jpg" class="category">
+  </a>
+ </div>
+</div>
+<br>
+
+
 
 
 <div class="sec4"> <!-- section 4 -->
 <b>JUST ARRIVED</b>
 <span class="linepad"><img src="img/layout-(1)_22.jpg"></span>
-    <span class="linepad2">
-      <i class="fa fa-angle-left" style="font-size:24px"></i>
-      <i class="fa fa-angle-right" style="font-size:24px"></i>
-    </span>
+    
 
 <div class="products2">
 <ul>
    
-<li><a href="#"><img src="img/layout-(1)_56.jpg"></a><h4 class="item">Item Name</h4><div><img src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star_03.jpg"></div><p class="price">$320.00</p></li>
+<li><a href="#"><img src="img/layout-(1)_56.jpg"></a><h4 class="item">Item Name</h4><div>
+  <img src="img/star_05.jpg" style="margin-left: -31px">
+  <img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg">
+  <img src="img/star.jpg">
+  <img src="img/star_03.jpg" style="width: 60px">
+</div><p class="price">$320.00</p></li>
 
-<li><a href="#"><img src="img/layout-(1)_58.jpg"></a><h4 class="item">Item Name</h4><div><img src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star_03.jpg"></div><p class="price">$150.00</p></li>
+<li><a href="#"><img src="img/layout-(1)_58.jpg"></a><h4 class="item">Item Name</h4><div>
+  <img src="img/star_05.jpg" style="margin-left: -31px">
+  <img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg">
+  <img src="img/star_03.jpg" style="width: 60px">
+</div><p class="price">$150.00</p></li>
 
-<li><a href="#"><img src="img/layout-(1)_60.jpg"></a><h4 class="item">Item Name</h4><div><img src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star_03.jpg"></div><p class="price">$89.00</p></li>
+<li><a href="#"><img src="img/layout-(1)_60.jpg"></a><h4 class="item">Item Name</h4><div>
+  <img src="img/star_05.jpg" style="margin-left: -31px">
+  <img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg">
+  <img src="img/star_03.jpg" style="width: 60px"></div>
+  <p class="price">$89.00</p></li>
 
-<li><a href="#"><img src="img/layout-(1)_61.jpg"></a></a><h4 class="item">Item Name</h4><div><img src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star_03.jpg"></div><p class="price">$80.00</p></li>
+<li><a href="#"><img src="img/layout-(1)_61.jpg"></a></a><h4 class="item">Item Name</h4><div>
+  <img src="img/star_05.jpg" style="margin-left: -31px">
+  <img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg">
+  <img src="img/star_03.jpg" style="width: 60px">
+</div><p class="price">$80.00</p></li>
 
-<li><a href="#"><img src="img/layout-(1)_63.jpg"></a><h4 class="item">Item Name</h4><div><img src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star_03.jpg"></div><p class="price">$19.00</p></li>
+<li><a href="#"><img src="img/layout-(1)_63.jpg"></a><h4 class="item">Item Name</h4><div>
+  <img src="img/star_05.jpg" style="margin-left: -31px">
+  <img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg">
+  <img src="img/star_03.jpg" style="width: 60px">
+</div><p class="price">$19.00</p></li>
 
-<li><a href="#"><img src="img/layout-(1)_65.jpg"></a><h4 class="item">Item Name</h4><div><img src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star_03.jpg"></div><p class="price">$75.00</p></li>
+<li><a href="#"><img src="img/layout-(1)_65.jpg"></a><h4 class="item">Item Name</h4><div>
+  <img src="img/star_05.jpg" style="margin-left: -31px">
+  <img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg">
+  <img src="img/star_03.jpg" style="width: 60px">
+</div><p class="price">$75.00</p></li>
 </ul>
 </div>
 </div>
@@ -133,44 +218,59 @@
 <ul class="products">
 <li><a href="#">
   <img src="img/layout-(1)_72.jpg"></a>
-  <h4 class="item">Item Name</h4><img src="img/star_05.jpg">
+  <h4 class="item">Item Name</h4><img src="img/star_05.jpg" style="margin-right:-36px">
   <img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg">
   <img src="img/star.jpg"><img src="img/star.jpg">
+  <img src="img/star_03.jpg" style="width: 60px">
   <p class="price">$75.00</p></li>
 
 <li><a href="#">
   <img src="img/layout-(1)_73.jpg"></a>
-  <h4 class="item">Item Name</h4><img src="img/star_05.jpg">
+  <h4 class="item">Item Name</h4><img src="img/star_05.jpg" style="margin-right:-36px">
   <img src="img/star.jpg"><img src="img/star.jpg">
-  <img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><p class="price">$120.00</p>
+  <img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg">
+  <img src="img/star_03.jpg" style="width: 60px">
+  <p class="price">$120.00</p>
 </li>
 
 <li><a href="#">
   <img src="img/layout-(1)_75.jpg"></a><h4 class="item">Item Name</h4>
-  <img src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg">
-  <img src="img/star.jpg"><img src="img/star.jpg"><p class="price">$20.00</p>
+  <img src="img/star_05.jpg" style="margin-right:-36px">
+  <img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg">
+  <img src="img/star.jpg"><img src="img/star.jpg">
+  <img src="img/star_03.jpg" style="width: 60px">
+  <p class="price">$20.00</p>
 </li>
 
 <li><a href="#">
   <img src="img/layout-(1)_76.jpg"></a><h4 class="item">Item Name</h4>
-  <img src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg">
-  <img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><p class="price">$50.00</p>
+  <img src="img/star_05.jpg" style="margin-right:-36px"><img src="img/star.jpg"><img src="img/star.jpg">
+  <img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg">
+  <img src="img/star_03.jpg" style="width: 60px">
+  <p class="price">$50.00</p>
 </li>
 
 <li><a href="#">
   <img src="img/layout-(1)_78.jpg"></a><h4 class="item">Item Name</h4>
-  <img src="img/star_05.jpg"><img src="img/star.jpg"><img src="img/star.jpg">
-  <img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg"><p class="price">$65.00</p>
+  <img src="img/star_05.jpg" style="margin-right:-36px"><img src="img/star.jpg"><img src="img/star.jpg">
+  <img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg">
+  <img src="img/star_03.jpg" style="width: 60px">
+  <p class="price">$65.00</p>
 </li>
 
 <li><a href="#"><img src="img/layout-(1)_79.jpg"></a>
-  <h4 class="item">Item Name</h4><span><img src="img/star_05.jpg">
+  <h4 class="item">Item Name</h4>
+  <img src="img/star_05.jpg" style="margin-right:-36px">
   <img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star.jpg">
-  <img src="img/star.jpg"><img src="img/star.jpg"><img src="img/star_03.jpg"></span><p class="price">$75.00
+  <img src="img/star.jpg"><img src="img/star.jpg">
+  <img src="img/star_03.jpg" style="width: 60px">
+  <p class="price">$75.00
   </p></li>
 </ul>
 </div>
 
+
+<br>
 <div class="blog">
     <div class="blog-title">
     <h2 class="head">LATEST BLOG POSTS</h2>
@@ -212,7 +312,7 @@
     </div><!-- blog-title -->
   </div>
 
-  <section class="last-sec">
+  
   <div class="footer">
     <div class="help">
       <h5 class="footerhead">Help</h5>
@@ -240,7 +340,7 @@
       </ul>
       </div>
       <div class="follow">
-      <p class="footerhead">Follow us</p>
+      <h5 class="footerhead">Follow us</h5>
       <ul class="footerhead">
         <li class="followlist"><h6><img class="arrow" src="img/footer-arrow.jpg">Facebook</h6></li>
         <li class="followlist"><h6><img class="arrow" src="img/footer-arrow.jpg">Twitter</h6></li>
@@ -252,7 +352,7 @@
 
       </div>
 
-      <div class="newsletters" >
+      <div class="newsletters">
         <h5 class="footerhead">Be The First To Know</h5>
         <h6 class="txt">Get all the latest information on Events,Sales and Offers.Sign up for newsletters today</h6>
         <div class="enteremail">
@@ -263,7 +363,7 @@
       </div>
     </div><!-- fotter -->
  
-  </section>
+  
   <footer>
     <div class="logofot">
       <img src="img/lay_94.jpg" style="padding-right: 30px">
@@ -289,6 +389,13 @@
 
 
 	</div> <!-- wrapper end -->
+
+<script src="js/mini.js"></script>
+
+
+<script type="text/javascript" src="slick-1.8.0/slick/slick.min.js"></script>        
+
+
 </body>
 </html>
 
